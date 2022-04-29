@@ -1,11 +1,12 @@
 <template>
     <section class="main">
         <div class="container">
-            <div class="carros">
-                <div class="carros-box">
-                    <h2></h2>
-                </div><!--carros-box-->
-            </div><!--carros-->
+            <h2>Cadastrar Carro</h2>
+            <form action="">
+                <input type="text" name="cadastrar-marca" placeholder="Cadastrar Marca"/>
+                <input type="text" name="cadastrar-modelo" placeholder="Cadastrar Modelo" />
+                <input type="submit" name="acao" value="Cadastar!" />
+            </form>
         </div><!--container-->
     </section><!--main-->
 </template>
@@ -17,5 +18,5 @@ export default {
 </script>
 
 <style scoped>
-
+    
 </style>
