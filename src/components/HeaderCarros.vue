@@ -1,7 +1,7 @@
 <template>
     <nav class="menu">  
         <div class="container">
-            <h2><router-link to="/">Home</router-link></h2>
+            <router-link to="/"><h2>Home</h2></router-link>
             <ul>
                 <li><router-link to="/carros">Carros</router-link></li>
                 <li><router-link to="/modelos">Modelos</router-link></li>
@@ -28,14 +28,14 @@ export default {
         align-items: center;
     }
 
-    nav.menu h2{
-        font-size: 30px;
-        font-weight: 300;
-    }
-
-    nav.menu h2 a{
+    nav.menu a{
         text-decoration: none;
         color: white;
+    }
+
+    nav.menu a h2{
+        font-size: 30px;
+        font-weight: 300;
     }
 
     nav.menu ul{
