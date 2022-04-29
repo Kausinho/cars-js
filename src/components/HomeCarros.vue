@@ -68,6 +68,7 @@ export default {
         border: 0;
         color: white;
         background-color: rgb(123, 128, 224);
+        transition: .3s;
     }
 
     .formulario button:hover{
