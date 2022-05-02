@@ -1,5 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import HomeView from '../views/HomeView.vue';
+import ModelosView from '../views/ModelosView.vue';
+import MarcasView from '../views/MarcasView.vue';
+import CarrosView from '../views/CarrosView.vue';
 
 const routes = [
   {
@@ -10,12 +13,17 @@ const routes = [
   {
     path: '/modelos',
     name: 'modelos',
-    component: () => import('../views/ModelosView.vue')
+    component: ModelosView
+  },
+  {
+    path: '/marcas',
+    name: 'marcas',
+    component: MarcasView
   },
   {
     path: '/carros',
     name: 'carros',
-    component: () => import('../views/CarrosView.vue')
+    component: CarrosView
   }
 ]
 
