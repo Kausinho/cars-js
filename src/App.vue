@@ -1,6 +1,5 @@
 <template>
   <HeaderCarros />
-  <HomeCarros />
   <FooterCarros />
   <router-view/>
 </template>
@@ -8,13 +7,11 @@
 <script>
 import HeaderCarros from './components/HeaderCarros.vue';
 import FooterCarros from './components/FooterCarros.vue';
-import HomeCarros from './components/HomeCarros.vue';
 
 export default {
   components:{
     HeaderCarros,
-    FooterCarros,
-    HomeCarros
+    FooterCarros
   }
 }
 </script>
