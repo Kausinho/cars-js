@@ -4,11 +4,11 @@
             <router-link to="/"><h2>Home</h2></router-link>
             <ul>
                 <li><router-link to="/carros">Carros</router-link></li>
+                <li><router-link to="/marcas">Marcas</router-link></li>
                 <li><router-link to="/modelos">Modelos</router-link></li>
             </ul>
         </div><!--container-->
   </nav><!--menu-->
-  <router-view />
 </template>
 
 <script>
